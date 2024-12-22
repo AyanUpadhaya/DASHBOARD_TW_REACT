@@ -35,7 +35,7 @@ function LinkComponent({ url, name, isActive, pathList, icon, showSidebar }) {
         to={url}
         className={`${
           isActive(pathName, pathList) ? "bg-blue-500" : ""
-        }  p-2 rounded hover:bg-blue-500 flex gap-2 items-center font-medium`}
+        }  p-2 rounded hover:bg-gray-700  flex gap-2 items-center font-medium`}
       >
         <span>{icon}</span>
         <span className={showSidebar ? "block" : "hidden"}>{name}</span>
