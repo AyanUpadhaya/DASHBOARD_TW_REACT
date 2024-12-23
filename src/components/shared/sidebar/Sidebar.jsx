@@ -10,7 +10,7 @@ export default function Sidebar() {
     <aside
       className={`${
         showSidebar ? "w-64" : "w-20"
-      }  hidden h-full overflow-auto no-scrollbar select-none bg-primary text-white md:flex flex-col duration-300 `}
+      }  hidden h-full overflow-auto no-scrollbar select-none bg-primary text-white md:flex flex-col duration-300 shrink-0 `}
     >
       <div
         onClick={() => navigate("/")}
